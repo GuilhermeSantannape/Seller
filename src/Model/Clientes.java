@@ -10,11 +10,20 @@ package Model;
  * @author Guilherme Santanna
  */
 public class Clientes {
-    private String Cnpj;
+    
+    private int Cnpj;
+
+    public void setCnpj(int Cnpj) {
+        this.Cnpj = Cnpj;
+    }
+
+    public void setSite(String Site) {
+        this.Site = Site;
+    }
 	private String Site;
         
         
-        public Clientes (String Cnpj, String Site) {
+        public Clientes (int Cnpj, String Site) {
 		this.Cnpj = Cnpj;
 		this.Site = Site;
 		
@@ -24,20 +33,18 @@ public class Clientes {
       
     }
     
-    public String getCnpj() {
+    public int getCnpj() {
 		return Cnpj;
 	}
 	public void setCnpj(String Cnpj) {
 		Cnpj = Cnpj;
 	}
     
-         public String getSite() {
+         public  String getSite() {
 		return Site;
 	}
-	public void setSite(String Site) {
-		Cnpj = Cnpj;
-	}
+	
+
     
+  
 }
-
-

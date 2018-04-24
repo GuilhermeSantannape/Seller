@@ -3,8 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Guilherme%20Santanna/Documents/NetBeansProjects/Seller/src/seller/seller.java</file>
-            <file>file:/C:/Users/Guilherme%20Santanna/Documents/NetBeansProjects/Seller/src/datastructures/ListaEncadeada.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/Model/Clientes.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/Problemas/Padraocadastro.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/seller/TelaDirecionamento.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/Model/Vetor.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/Problemas/PadraoSinc.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/Problemas/PadraoPista.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/Problemas/PadraoComanda.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/comparators/SearchBySite.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/comparators/SearchByCnpj.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/Problemas/TelaCadastro.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/Problemas/PadraoNfe.java</file>
+            <file>file:/C:/Users/Guilherme%20Santanna/Documents/GitHub/Seller/src/datastructures/ListaEncadeada.java</file>
         </group>
     </open-files>
 </project-private>

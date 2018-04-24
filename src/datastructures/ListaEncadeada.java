@@ -27,9 +27,9 @@ import Model.Clientes;
 
 
 public class ListaEncadeada<T> {
-	String Lista[] = new String[400];
+	
 	 private int Tamanho;
-	 Clientes Cliente = new Clientes();
+	 
 	 
 	
 	private T dado;
@@ -130,7 +130,35 @@ public class ListaEncadeada<T> {
 		 		}
 	}
 	
-	public static ListaEncadeada<Model.Clientes> loadFromFile(FileReader Contatos){
+        
+        
+        	public static ListaEncadeada<Model.Clientes> loadFromFile(FileReader Contatos){
+		 
+		  BufferedReader ler = new BufferedReader(Contatos);
+			ListaEncadeada<Clientes> Registro = new ListaEncadeada<Clientes>();
+			try {
+				String linha = ler.readLine();
+				
+	while(linha != null) {
+				
+		String[] atributos = linha.split(",");
+		Clientes cli = new Clientes();
+		cli.setCnpj(atributos[0]);
+		cli.setSite(atributos[1]);
+		;
+		Registro.append((Clientes) cli);
+	
+		linha = ler.readLine();
+				}
+				
+				
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			return Registro;
+		}
+	/*public static ListaEncadeada<Model.Clientes> loadFromFile(FileReader Contatos){
 		 
 		  BufferedReader ler = new BufferedReader(Contatos);
 			ListaEncadeada<Clientes> Registro = new ListaEncadeada<Clientes>();
@@ -143,9 +171,9 @@ public class ListaEncadeada<T> {
 		Clientes Clientes = new Clientes();
 		Clientes.setCnpj(atributos[0]);
 		Clientes.setSite(atributos[1]);
-	
-		Registro.append((Clientes) Clientes);
                 System.out.println("  "+Clientes);
+		Registro.append((Clientes) Clientes);
+                
 		linha = ler.readLine();
             
 				}
@@ -157,6 +185,6 @@ public class ListaEncadeada<T> {
 			
 			return Registro;
 		}
-
+*/
    
 }
